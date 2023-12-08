@@ -1,0 +1,39 @@
+.parent{
+  height: 250vh;
+  background-color: bisque;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.element{
+  opacity: 0;
+  margin-right: 10px;
+  min-width: 100px;
+  min-height: 100px;
+  border: 2px black solid;
+}
+.element1{
+  background-color: blueviolet;
+  transform: translateX(-100%);
+  transition: all 1s linear;
+  transition-delay: 100ms;
+}
+.element2{
+  background-color: aqua;
+  transform: translateX(-150%);
+  transition: all 1s linear;
+  transition-delay: 200ms;
+}
+.element3{
+  background-color: brown;
+  transform: translateX(-200%);
+  transition: all 1s linear;
+  transition-delay: 300ms;
+}
+
+.show{
+  opacity: 1;
+  transform: translateX(0%);
+}
